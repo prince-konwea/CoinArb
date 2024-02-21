@@ -10,7 +10,7 @@ const handleClick = () => setClick(!click)
     <div className="navbar">
      <div className="container">
       <h1 style={{marginLeft: "1rem", color: "#00d8ff"}}>CoinArb</h1>
-      <ul className="nav">
+      <ul className={click ? "nav active" : "nav"}>
       <li className="nav-item">
        <a href="/">Platform</a>
       </li>
