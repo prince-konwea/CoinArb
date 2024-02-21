@@ -1,4 +1,5 @@
 import "./navbar.css"
+import { AiOutlineMenu } from "react-icons/ai"
 
 const Navbar = () => {
   return (
@@ -22,6 +23,9 @@ const Navbar = () => {
        <a className="btn" href="/">Get Started</a>
       </li>
       </ul>
+      <div className="hamburger">
+       <AiOutlineMenu  className="icon"/>
+      </div>
      </div>
     </div>
   )
